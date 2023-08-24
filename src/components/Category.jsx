@@ -26,7 +26,7 @@ const Category = () => {
                  </div>
               </div>
              </div>
-             <button onClick={()=>router.push('/pages/Burgerking')} className='flex flex-row items-center justify-center text-white p-4 rounded bg-red-800 rounded-br-2xl rounded-bl-2xl transition'>
+             <button onClick={()=>router.push('/pages/burgerking')} className='flex flex-row items-center justify-center text-white p-4 rounded bg-red-800 rounded-br-2xl rounded-bl-2xl transition'>
                 <div className='text-xs font-normal'>
                    <p className=' text-white font-bold mb-0 my-0 text-xl flex-col hover:opacity-70'>Sipariş Ver!</p>
                 </div>
@@ -47,7 +47,7 @@ const Category = () => {
                  </div>
                </div>
              </div>
-             <button type='button' onClick={()=>router.push('/pages/Popeyes')} className='flex flex-row items-center justify-center text-white p-4 rounded bg-red-800 rounded-br-2xl rounded-bl-2xl transition'>
+             <button type='button' onClick={()=>router.push('/pages/popeyes')} className='flex flex-row items-center justify-center text-white p-4 rounded bg-red-800 rounded-br-2xl rounded-bl-2xl transition'>
                 <div className='text-xs font-normal'>
                    <p className=' text-white font-bold mb-0 my-0 text-xl flex-col hover:opacity-70'>Sipariş Ver!</p>
                 </div>
@@ -68,7 +68,7 @@ const Category = () => {
                  </div>
                </div>
              </div>
-             <button type='button' onClick={()=>router.push('/pages/Subway')} className='flex flex-row items-center justify-center text-white p-4 rounded bg-red-800 rounded-br-2xl rounded-bl-2xl transition'>
+             <button type='button' onClick={()=>router.push('/pages/subway')} className='flex flex-row items-center justify-center text-white p-4 rounded bg-red-800 rounded-br-2xl rounded-bl-2xl transition'>
                 <div className='text-xs font-normal'>
                    <p className=' text-white font-bold mb-0 my-0 text-xl flex-col hover:opacity-70'>Sipariş Ver!</p>
                 </div>

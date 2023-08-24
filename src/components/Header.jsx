@@ -19,16 +19,16 @@ export default function Header() {
            </div>
         </div>
          <div className="hidden md:flex gap-x-8 text-sm font-semibold">
-         <button type='button' onClick={()=>router.push('/pages/Campaigns')} className="flex items-center gap-x-2  transition-all text-opacity-80 hover:text-opacity-100">
+         <button type='button' onClick={()=>router.push('/pages/campaigns')} className="flex items-center gap-x-2  transition-all text-opacity-80 hover:text-opacity-100">
                 <BsGift size={30} />
                 <h1 className='text-black font-semibold hover:opacity-70'>Kampanyalar</h1>
             </button>
-            <button type='button' onClick={()=>router.push('/pages/Account')} className="flex items-center gap-x-2 transition-all text-opacity-80 hover:text-opacity-100">
+            <button type='button' onClick={()=>router.push('/pages/account')} className="flex items-center gap-x-2 transition-all text-opacity-80 hover:text-opacity-100">
                <CiUser size={30} />
                 <h1 className='text-black font-semibold hover:opacity-70'>Hesabım</h1>
             </button>
             <div className='items-center flex order-2 box-border'>
-               <button type='button' onClick={()=>router.push('/pages/Basket')} className='bg-red-600 flex flex-row items-center rounded-3xl h-11 w-32 transition box-border '>
+               <button type='button' onClick={()=>router.push('/pages/basket')} className='bg-red-600 flex flex-row items-center rounded-3xl h-11 w-32 transition box-border '>
                   <div className='relative bg-gray-900 p-3 rounded-3xl h-11 transition box-border'>
                      <div className='box-border bg-repeat block'>
                         <BsBasket className='text-white font-normal' size={20}/>
