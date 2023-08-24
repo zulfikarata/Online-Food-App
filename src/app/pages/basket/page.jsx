@@ -99,8 +99,7 @@ export default function page() {
                     </div>
                     <div className="pl-0 flex-[41%] max-w-[41%] relative w-full pr-3">
                         <button className="font-medium text-sm opacity-50 cursor-not-allowed bg-red-700 border border-solid border-red-700 mb-2 block w-full text-white rounded-xl p-4 h-11">Ödemeye Geç</button>
-                    </div>
-                    
+                    </div> 
                   </div>
                 </div>
               </div>
