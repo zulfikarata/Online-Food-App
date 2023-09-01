@@ -33,7 +33,7 @@ const  HeroSection=() =>{
       cssEase: "linear"
       };
   return (
-    <div className='bg-red-700 mb4 border-2 rounded-2xl pb-3.5 box-border bg-repeat'>
+    <div className='bg-red-700 mb4 border-2 pt-20 rounded-2xl pb-6 box-border bg-repeat'>
      <div className=" relative h-auto md:h-[500px] before:bg-gradient-to-r  before:to-transparent before:absolute before:inset-0 before:w-full before:h-full before:z-10">
         <div className='col-span-full opacity-0 w-full h-full absolute top-0 left-0 z-10 bg-black transition'></div>
         <div className='object-contain rounded-full w-full md:w-[890px] md:left-1/2 md:rounded-lg bg-transparent p-6'>

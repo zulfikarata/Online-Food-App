@@ -5,7 +5,7 @@ import React from 'react'
 export default function Kitchen() {
   return (
     <div>
-        <section className=' mb-6 w-full tracking-normal box-border text-sm'>
+        <section className=' mb-6 max-w-full pr-10 pl-10 tracking-normal box-border text-sm'>
            <div>
               <div className='flex flex-col items-start'>
                 <div className=' pl-4 w-full mb-3 flex justify-between items-center'>

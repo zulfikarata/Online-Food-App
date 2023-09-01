@@ -11,8 +11,7 @@ export default function page() {
   return (
     <div>
         <Header/>
-
-        <div className='max-w-md  w-full pr-3 pl-3 mr-2 flex-grow pt-5 box-border bg-repeat block'>
+        <div className='max-w-md  w-full pr-3 pl-3 mr-2 flex-grow pt-32 box-border bg-repeat block'>
         <div className=' order-2 flex-initial relative w-full pr-4 pl-4 box-border bg-repeat block'>
                 <div className=' border-r-2 border-solid  h-full'>
                   <div className='bg-white p-4 rounded-xl mb-4 border border-solid border-red-700'>
@@ -25,7 +24,7 @@ export default function page() {
                 </div>
         </div>
         </div>
-        <div className='max-w-3xl w-full pr-3 pl-3  ml-96 flex-grow pb-1 box-border bg-repeat '>
+        <div className='max-w-3xl w-full pr-3 pl-3 mr-auto ml-auto flex-grow pb-1 box-border bg-repeat '>
            <div className='flex flex-wrap -mr-4 -ml-4 box-border bg-repeat'>
               
               <div className='order-1 flex-auto max-w-full relative w-full pr-3 pl-3'>

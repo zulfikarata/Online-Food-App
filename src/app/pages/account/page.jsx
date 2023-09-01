@@ -13,7 +13,7 @@ export default function page() {
     <div>
         <Header/>
         <div className='col-span-full flex justify-start tracking-normal box-border text-sm'>
-          <div className='justify-start pr-0 pl-0 mb-4 flex-col-reverse mr-4 ml-4 max-w-full flex items-start w-full'>
+          <div className='justify-start pr-0 pl-0 mb-4 pt-20 flex-col-reverse mr-4 ml-4 max-w-full flex items-start w-full'>
             <aside className='flex-initial mt-0 mr-0 mb-4 max-w-full w-full flex flex-col'>
               <div className="mt-6 flex flex-col items-start">
                 <div className='p-0 overflow-hidden rounded-lg flex flex-col justify-between w-full bg-white shadow-md font-semibold text-base'>

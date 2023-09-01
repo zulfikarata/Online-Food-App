@@ -12,8 +12,7 @@ export default function Header() {
    console.log(router);
 
   return (
-   <div className=' min-h-full min-w-full flex flex-col justify-between h-full text-black bg-gray-300 box-border bg-repeat'>
-      <div className=' absolute w-full'> <div></div></div>
+   
     <nav className=' pb-0 bg-white  pt-0 border-b border-solid border-red-600 fixed top-0 right-0 left-0 z-[1030] flex-nowrap flex-row justify-start flex items-center p-3 box-border bg-repeat'>
         <div className=' flex-nowrap flex items-center justify-between max-w-6xl  w-full pr-4 pl-4 mr-auto ml-auto md:gap-x-28'>
          <div className='flex items-center justify-between flex-1'>
@@ -76,6 +75,6 @@ export default function Header() {
          </div>
         </div>
     </nav>
-   </div>
+   
   )
 }

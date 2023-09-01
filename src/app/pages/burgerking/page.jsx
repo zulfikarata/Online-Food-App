@@ -10,8 +10,8 @@ export default function page() {
   return (
     <div>
         <Header/>
-        <div className=' col-span-full pr-0 pl-0 grid-cols-2 tracking-normal box-border text-sm'>
-            <div className=' col-span-full mb-4 flex-col pl-0 pr-0  flex w-full'>
+        <div className=' col-span-full pr-0 pl-0 grid-cols-2 pt-20 tracking-normal box-border text-sm'>
+            <div className=' col-span-full mb-4 flex-col pl-0 pr-0 flex w-full'>
                 <div className='flex flex-col flex-1 overflow-hidden'>
                     <div className=' shadow-xl shadow-transparent w-full'>
                         <div className='w-full flex flex-col items-start'>
