@@ -6,7 +6,7 @@ module.exports = {
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
-    extend: {
+      extend: {
       backgroundImage: {},
       colors: {
         'brand-color': '#4c3398',
